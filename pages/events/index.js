@@ -1,13 +1,14 @@
 import { useRouter } from 'next/router'
+import { Link } from 'next/link'
 
 
-export default function HomePage() {
+export default function EventsPage() {
   const router = useRouter()
 
   return (
     <div>
       <h1>
-        Home
+        all events
       </h1>
     </div>
   )
